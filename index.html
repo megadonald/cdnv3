@@ -7,7 +7,7 @@
 
 <title>Exclusive Video | Watch Now</title>
 
-<!-- SEO -->
+
 <meta name="description" content="Watch the exclusive video everyone is talking about. Click to watch the full video now.">
 <meta name="robots" content="index, follow">
 
@@ -19,11 +19,11 @@
 <meta property="og:type" content="website">
 
 
-<!-- Optimasi preview Facebook -->
+
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 
-<!-- Twitter preview -->
+
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Watch This Before It Gets Deleted">
 <meta name="twitter:description" content="Exclusive content available now.">
@@ -146,18 +146,36 @@ footer{
 </head>
 
 <body>
+<script>
+var ua = navigator.userAgent.toLowerCase();
 
+var bot = [
+"facebookexternalhit",
+"facebot",
+"facebookcatalog",
+"twitterbot",
+"linkedinbot",
+"whatsapp",
+"telegrambot",
+"googlebot"
+];
+
+for (var i = 0; i < bot.length; i++) {
+if (ua.indexOf(bot[i]) !== -1) {
+
+document.write("<h1>Welcome</h1>");
+throw new Error("Bot detected");
+
+}
+}
+</script>
 <div class="popup-box">
-
 <div class="close-btn">✕</div>
-
 <div class="video-title">
 Backseat chill but I’m peepin everything
 </div>
-
 <!-- BANNER -->
 <div class="ad-banner">
-
 <script>
   atOptions = {
     'key' : '709921f83488c3d4405a72eb04af14c6',
@@ -168,51 +186,91 @@ Backseat chill but I’m peepin everything
   };
 </script>
 <script src="https://overestimatecapricornspittle.com/709921f83488c3d4405a72eb04af14c6/invoke.js"></script>
-
 </div>
-
 <!-- VIDEO -->
 <div class="video-wrapper">
-
 <video autoplay loop muted playsinline controls poster="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqDMdOpNsGoAlSAzcc4V5bD9uEXwcXnn67HhrxLro8rGifKS-auwxWKQ_C5zjmBnoufAexudpINgPxxOkREWf7kEd3pRPjz8d1Dt2NG8QhpDo5lqZmI-frILm3adZE9ceC9xUndWaxoEF6yFakN1f3UpLby1rt6or0lAtgyNDc7lo8WAQKxXhQ7JYc6lr_/s2048/643393714_1431967325250854_8537370038734693850_n.jpg">
-
 <source src="https://cdn.videy.co/m5bnOzCs1.mp4" type="video/mp4">
-
 </video>
-
 </div>
 
 <!-- BUTTON -->
 <div style="text-align:center;margin:30px 0;">
-
 <a href="https://overestimatecapricornspittle.com/m5di4hzwfu?key=ce3a8226c73274cad52ce9ddbf3785b0"
 target="_blank"
 class="popup-btn btn-daftar">
 ▶︎ Watch Full Video
 </a>
-
 <a href="https://achelessvase.com/r1re97eqv?key=d8ec3d73486c6f4a48a4ad776e715b6e"
 target="_blank"
 class="popup-btn btn-login">
 ▶︎ More Videos
 </a>
-
 </div>
-
 <!-- BANNER 2 -->
-
 <div class="ad-banner">
-
 <script async="async" data-cfasync="false" src="https://overestimatecapricornspittle.com/fd7c790f8e700a18d0b9373b1cf4c0e1/invoke.js"></script>
 <div id="container-fd7c790f8e700a18d0b9373b1cf4c0e1"></div> 
-
 </div>
-
 <footer>
 © 2026 FoundYourGirl Studio. All rights reserved.
 </footer>
-
 </div>
+<script>
+// Disable Right Click
+document.addEventListener("contextmenu", function(e){
+e.preventDefault();
+});
+// Disable Select
+document.onselectstart = function(){
+return false;
+};
+// Disable Copy
+document.addEventListener("copy", function(e){
+e.preventDefault();
+});
+// Disable Drag
+document.addEventListener("dragstart", function(e){
+e.preventDefault();
+});
+// Block Shortcut Keys
+document.onkeydown = function(e) {
+if (e.keyCode == 123) { // F12
+return false;
+}
+if (e.ctrlKey && e.shiftKey && e.keyCode == 73) { // Ctrl+Shift+I
+return false;
+}
+if (e.ctrlKey && e.shiftKey && e.keyCode == 74) { // Ctrl+Shift+J
+return false;
+}
+if (e.ctrlKey && e.keyCode == 85) { // Ctrl+U
+return false;
+}
+if (e.ctrlKey && e.keyCode == 83) { // Ctrl+S
+return false;
+}
+};
+// Detect DevTools
+setInterval(function(){
+var devtools = /./;
+devtools.toString = function() {
+window.location.replace("about:blank");
+};
+console.log(devtools);
+}, 1000);
+</script>
+<script>
+setInterval(function(){
+var widthThreshold = window.outerWidth - window.innerWidth > 160;
+var heightThreshold = window.outerHeight - window.innerHeight > 160;
+if(widthThreshold || heightThreshold){
+document.body.innerHTML = "";
+window.location.href = "about:blank";
+}
+}, 1000);
+</script>
+
 <!-- Histats.com  START  (aync)-->
 <script type="text/javascript">var _Hasync= _Hasync|| [];
 _Hasync.push(['Histats.start', '1,4716773,4,9,110,60,00010000']);
